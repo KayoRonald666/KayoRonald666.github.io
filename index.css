@@ -1,0 +1,99 @@
+.amigos{
+    text-transform: none;
+}
+
+conteudo:houver{
+    color:#fff;
+}
+conteudo:active{
+    color:green;
+}
+
+.filme{
+    text-align: center;
+}
+
+
+
+body{
+   background-image:url("/Downlond/Toky.jpeg");
+}
+.hobbie{
+    font-family: 'Pacifico', cursive;
+}
+.menu{
+    font-family: 'Karla', sans-serif;
+	text-align: center;
+	font-size: 27px;
+	width: 700px;
+	margin: 30px;
+	margin-bottom: 30px;
+    padding-left:5%;
+}
+.menu > a{
+	text-transform: none;
+	color: #DF0101;
+	margin-right: 10px;
+}
+
+.menu > a:visited {
+	color: red;
+
+}
+.memu > a:hover {
+	color: black;
+}
+.bo{
+    padding-left:2%;
+}
+h1{
+    padding-left:2%;
+	font-family: 'Swanky and Moo Moo', cursive;
+	border-bottom: 2px dotted black;
+	text-align: left;
+	padding-bottom: 3px;
+}
+
+.conteudo >hover{
+	color: black;
+}
+h2{
+ padding-left:2%;
+ font-family: 'Swanky and Moo Moo', cursive;
+}
+
+h3{
+   padding-left:2%;
+   font-family: 'Swanky and Moo Moo', cursive;
+}
+
+p{
+    padding-left:2%;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.comteudo{
+ 	font-family: 'Swanky and Moo Moo', cursive;
+    line-height: 37px;
+} 
+
+.imgs{
+	border-radius: 10%;
+    height: 50%;
+    width: 50%;
+    padding-left:2%;
+}
+
+
+.img{
+	border-radius: 15%;
+    height: 250px;
+    width: 250px;
+    padding-left:2%;
+
+}
+
+.selecionado{
+	border-bottom: 2px dotted black;
+}
