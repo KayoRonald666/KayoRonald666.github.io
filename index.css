@@ -8,6 +8,25 @@ conteudo:houver{
 conteudo:active{
     color:green;
 }
+.container {
+    width: 50%; /* define a largura do campo */ 
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+  }
+  label {display:block;}
+  input {width: 100%;}
+  input,  button {padding: 10px;}
+  button {
+    position: absolute;   
+    top: 0; 
+    right: 0;
+
+  }
+  .content{display: flex;justify-content: center;}
+.contato{width: 100%; max-width: 500px;}
+.from{display: flex;flex-direction: column;}
+.filde{padding: 10px;margin-bottom: 15px;border: 1px solid #cccc;border-radius: 5px;font-family: Arial,Helvetica, sans-serif;
+    font-size: 16px;}
+textarea{height: 150px; width: 500px;}
 
 .filme{
     text-align: center;
