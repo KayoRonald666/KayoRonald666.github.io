@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="https://static.apkthing.com/uploads/posts/2015-01/1420862206_music-visualizer3.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<meta charset="utf-8">
+	<meta http-equiv="">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+	<title>Animeflix</title>
+</head>
+<body>
+<style>
+.container {
+    width: 50%; /* define a largura do campo */ 
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+  }
+  label {display:block;}
+  input {width: 100%;}
+  input,  button {padding: 10px;}
+  button {
+    position: absolute;   
+    top: 0; 
+    right: 0;
+
+  }
+  .content{display: flex;justify-content: center;}
+.contato{width: 100%; max-width: 500px;}
+.from{display: flex;flex-direction: column;}
+.filde{padding: 10px;margin-bottom: 15px;border: 1px solid #cccc;border-radius: 5px;font-family: Arial,Helvetica, sans-serif;
+    font-size: 16px;}
+textarea{height: 150px; width: 500px;}
+</style>
+<div id="interface"> 
+		<div id="charset">
+			<img id="logo"src="https://www.su.rhul.ac.uk/asset/Organisation/6309/Anime.png?thumbnail_width=1140&thumbnail_height=300&resize_type=ResizeFitAllFill" class="logo" title="Animeflix" alt="Animeflix">
+            </a>
+        </div>
+
+	<div class="head">
+    <form action=" " method="post">
+  <label for="<h1>busca</h1>">Buscar</label>
+  
+  <div class="container">  
+    <input type="search" id="busca" placeholder="Busca animes...." name="q">
+    <button type="submit">OK</button>
+</div>
+  <div class="container">  
+  <ul class="ulclear sb-genre-list">
+               <li><a href="">Ação</a></li>
+               <li><a href="">Ação</a></li>
+               <li><a href="">Aventura</a></li>
+               <li><a href="">Comédia</a></li>
+               <li><a href="">Carros</a></li>
+               <li><a href="">Demência</a></li>
+               <li><a href="">Demônios</a></li>
+               <li><a href="">Drama</a></li>
+               <li><a href="">Ecchi</a></li>
+               <li><a href="">Fantasia</a></li>
+               <li><a href="">Game</a></li>
+               <li><a href="">Harém</a></li>
+               <li><a href="">Histórico</a></li>
+               <li><a href="">Terror</a></li>
+               <li><a href="">Infantil</a></li>
+                <li><a href="">Mágica</a></li>
+                <li><a href="">Artes Maciais</a></li>
+                <li><a href="">Mecha</a></li>
+                <li><a href="">Militar</a></li>
+                <li><a href=" ">Música</a></li>
+                <li><a href=" ">Paródia</a></li>
+                <li><a href=" ">Policial</a></li>
+                <li><a href=" ">Psicológico</a></li>
+                <li><a href=" ">Romance</a></li>
+                <li><a href=" ">Samurai</a></li>
+                <li><a href=" ">Escolar</a></li>
+                <li><a href=" ">Sci-fi</a></li>
+                <li><a href=" ">Seinen</a></li>
+                <li><a href=" ">Shoujo</a></li>
+                <li><a href=" ">Shoujo Ai</a></li>
+                <li><a href=" ">Shounen</a></li>
+                <li><a href=" ">Shounen Ai</a></li>
+                <li><a href=" ">Slice of Life</a></li>
+                <li><a href=" ">Espaço</a></li>
+                <li><a href=" ">Esportes</a></li>
+                <li><a href=" ">Super Poderes</a></li>
+                <li><a href=" ">Sobrenatural</a></li>
+                <li><a href=" ">Thriller</a></li>
+                <li><a href=" ">Vampiros</a></li>
+                <li><a href=" ">Yaoi</a></li>
+                <li><a href=" ">Yuri</a></li>
+</ul>
+	</div>
+	<!--
+	<div id="header-login" class="guest">
+         <a href="/login" class="btn btn-sm btn-login"><i class="icon-user mr5"></i>Fazer Login</a>
+         <a href="/register" class="btn btn-sm btn-login"><i class="icon-user mr5"></i>Criar Conta</a>
+    </div>
+-->
+<div class="contato">
+<form class="form" method="POST" action="./Contato.php">
+	<input class="field" name="nome" placeholder="coloque seu nome aqui.">
+	<input class="field" name="email" placeholder="colque o seu E-mail valido">
+	<textarea class="field" name="mesagem" placeholder="Digit a sua mensagem aqui para..."></textarea>
+	<input class="field" type="submit" value="Enviar">
+</form>
+
+</div>
+
+
+
+
+</body>
+</html>
